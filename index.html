@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#b91c1c" />
+  <title>Chasse au trésor — Montmartre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <!-- Écran 1 : Accueil -->
+    <section id="screen-home" class="screen active">
+      <div class="card">
+        <p class="kicker">Paris · 18ᵉ</p>
+        <h1>Chasse au trésor<br/><span class="accent">à Montmartre</span></h1>
+        <p class="lead">Sept lieux, six énigmes, un trésor planqué quelque part sur la butte. Trouve ton équipe un nom, et c'est parti.</p>
+        <label for="team-name" class="label">Nom de l'équipe</label>
+        <input id="team-name" type="text" autocomplete="off" maxlength="30" placeholder="Les Renards de la Butte" />
+        <button id="start-btn" class="btn primary">C'est parti 🗺️</button>
+        <p id="resume-hint" class="muted small hidden">Tu peux aussi <a href="#" id="resume-link">reprendre la partie en cours</a>.</p>
+      </div>
+    </section>
+
+    <!-- Écran 2 : Étape en cours -->
+    <section id="screen-step" class="screen">
+      <header class="topbar">
+        <span id="step-badge" class="badge"></span>
+        <span id="team-label" class="team-label"></span>
+      </header>
+      <div class="card">
+        <p class="kicker">Lieu actuel</p>
+        <h2 id="lieu-nom" class="lieu-nom"></h2>
+        <p id="lieu-desc" class="lieu-desc"></p>
+        <hr/>
+        <p class="kicker">Énigme</p>
+        <p id="enigme-texte" class="enigme"></p>
+        <form id="answer-form" autocomplete="off">
+          <label for="answer-input" class="label">Ta réponse</label>
+          <input id="answer-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" placeholder="Tape ici…" />
+          <button type="submit" class="btn primary">Valider</button>
+          <p id="feedback" class="feedback" aria-live="polite"></p>
+        </form>
+        <details class="hints">
+          <summary>💡 Demander un indice (<span id="hints-count">0</span> utilisés)</summary>
+          <div id="hints-list"></div>
+          <button id="reveal-hint-btn" class="btn ghost small">Révéler un indice</button>
+        </details>
+      </div>
+      <footer class="footnote">
+        <a href="#" id="restart-link" class="muted small">Recommencer depuis le début</a>
+      </footer>
+    </section>
+
+    <!-- Écran 3 : Final -->
+    <section id="screen-final" class="screen">
+      <div class="card final">
+        <p class="confetti">🎉</p>
+        <h1 id="final-titre">Bravo !</h1>
+        <p id="final-team" class="team-label center"></p>
+        <p id="final-message" class="enigme"></p>
+        <ul class="stats">
+          <li><strong id="stat-time">—</strong><span>temps total</span></li>
+          <li><strong id="stat-hints">—</strong><span>indices utilisés</span></li>
+        </ul>
+        <button id="restart-btn" class="btn ghost">Recommencer</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

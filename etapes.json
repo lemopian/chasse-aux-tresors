@@ -1,0 +1,87 @@
+{
+  "title": "Chasse au trésor à Montmartre",
+  "lieux": [
+    {
+      "nom": "Métro Abbesses",
+      "description": "Point de départ. Sortez par l'élégante verrière verte signée Hector Guimard, station Art nouveau la plus profonde de Paris."
+    },
+    {
+      "nom": "Le Mur des Je t'aime",
+      "description": "Square Jehan Rictus, place des Abbesses. 40 m² d'émail bleu où l'amour se décline."
+    },
+    {
+      "nom": "Le Bateau-Lavoir",
+      "description": "Place Émile Goudeau. Le berceau du cubisme, où Picasso peignit Les Demoiselles d'Avignon en 1907."
+    },
+    {
+      "nom": "Le Passe-Muraille",
+      "description": "Place Marcel Aymé. Une sculpture en bronze d'un homme prisonnier du mur, inspirée par la nouvelle éponyme."
+    },
+    {
+      "nom": "La Maison Rose & Place Dalida",
+      "description": "Rue de l'Abreuvoir, l'une des plus pittoresques de Paris. Au croisement, le buste d'une icône."
+    },
+    {
+      "nom": "Le Clos Montmartre",
+      "description": "Rue des Saules. Le vignoble parisien, sauvé par les habitants dans les années 30."
+    },
+    {
+      "nom": "Le Sacré-Cœur",
+      "description": "Le parvis de la basilique blanche. Toute la ville à vos pieds. Vous y êtes. Le trésor est tout proche."
+    }
+  ],
+  "enigmes": [
+    {
+      "texte": "Pour commencer ta quête, descends vers un petit square où, sur un mur d'émail bleu de 40 m², un même message est répété encore et encore. Combien de langues différentes y figurent ? (Un nombre est gravé sur place pour l'aider.)",
+      "reponseHash": "20e9c64c05a54d199610fb7e38135361324b5ed5dcf39c23afe9b48926c07376",
+      "indices": [
+        "Le square s'appelle Jehan Rictus, à 2 minutes à pied du métro Abbesses.",
+        "C'est un nombre à trois chiffres compris entre 300 et 320."
+      ]
+    },
+    {
+      "texte": "Dirige-toi vers la place Émile Goudeau. Un bâtiment au nom de bateau y a vu naître le cubisme. Un peintre espagnol y a peint « Les Demoiselles d'Avignon ». Quel est son nom de famille ?",
+      "reponseHash": "88669879cd6ae5e264a9fc42557664248ab45f267dc9906240e6f732ce7366fe",
+      "indices": [
+        "Son prénom est Pablo. Le bâtiment originel a brûlé en 1970.",
+        "Le nom est gravé sur la plaque devant l'entrée."
+      ]
+    },
+    {
+      "texte": "Direction la place Marcel Aymé : un homme y est figé pour toujours, à moitié dans un mur, à moitié dehors. C'est le héros d'une nouvelle de Marcel Aymé. Quel est son nom ?",
+      "reponseHash": "3d3ae20c63dd062878cb75abf0b15327b531a4ba21468b904b677cdda6c68a59",
+      "indices": [
+        "Petit fonctionnaire timide qui découvre un beau jour qu'il peut traverser les murs.",
+        "Son nom commence par « Du » et finit par « eul »."
+      ]
+    },
+    {
+      "texte": "Descends la rue de l'Abreuvoir, croise la façade rose immortalisée par Utrillo, et arrête-toi devant le buste d'une chanteuse italo-égyptienne, idole des années 70. Quel est son nom d'artiste (un seul mot) ?",
+      "reponseHash": "08d8d35d88064e10783c0f51eaf1e60b80c1bb086389867b6f2b74a04fddfcce",
+      "indices": [
+        "Elle chantait « Gigi l'Amoroso » et « Paroles, paroles » avec Alain Delon.",
+        "Elle a vécu rue d'Orchampt, à deux pas d'ici."
+      ]
+    },
+    {
+      "texte": "Continue jusqu'à la rue des Saules. Là, derrière une grille, un secret bien parisien : un vrai vignoble, planté pour empêcher la spéculation immobilière. En quelle année a-t-il été créé ? (Un panneau d'information l'indique sur place.)",
+      "reponseHash": "c8c817e80216ce409c63a735acdd40fb7b023bcca6e87b6fc89973c447b6a858",
+      "indices": [
+        "C'est dans les années 1930.",
+        "L'année se termine par un 3."
+      ]
+    },
+    {
+      "texte": "Dernière ligne droite ! Grimpe les escaliers vers la plus haute basilique de Paris, blanche éclatante, perchée tout en haut de la butte. Quel est son nom (sans « la basilique du ») ?",
+      "reponseHash": "185c2f036eccf258c7a4253af75882606c3035c56d65ffe328b34c096aae8fc4",
+      "indices": [
+        "Elle est dédiée au cœur du Christ.",
+        "Deux mots, séparés par un espace ou un tiret."
+      ]
+    }
+  ],
+  "final": {
+    "titre": "Bravo, équipe !",
+    "message": "Vous avez réussi 🎉\n\nLe trésor est planqué [ÉDITE ICI : ex. « derrière le 3ᵉ banc à droite du parvis, sous une pierre marquée d'une croix »].\n\nFoncez le récupérer, et rejoignez le QG pour le verre du vainqueur !"
+  }
+}

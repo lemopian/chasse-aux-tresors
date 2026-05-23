@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin — Générateur de hash</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="app">
+    <div class="card">
+      <p class="kicker">Outil organisateur</p>
+      <h1>Générateur<br/><span class="accent">de hash</span></h1>
+      <p class="lead">Tape la bonne réponse pour une énigme. Le hash SHA-256 est calculé en direct. Copie-le dans <code>etapes.json</code> à la place du <code>reponseHash</code> correspondant.</p>
+
+      <label for="ans" class="label">Réponse</label>
+      <input id="ans" type="text" autocomplete="off" placeholder="Ex: Sacré-Cœur" />
+
+      <label class="label" style="margin-top:18px">Normalisée</label>
+      <p id="norm" class="enigme" style="margin:0;font-family:monospace;font-size:15px;color:var(--ink-soft);">—</p>
+
+      <label class="label" style="margin-top:18px">Hash SHA-256</label>
+      <p id="hash" class="enigme" style="margin:0;font-family:monospace;font-size:13px;word-break:break-all;background:#fffdf6;padding:12px;border-radius:8px;border:2px solid var(--parchment-dark);">—</p>
+
+      <button id="copy" class="btn primary">Copier le hash</button>
+
+      <p class="muted small" style="margin-top:18px">
+        Note&nbsp;: la normalisation applique <code>trim → lowercase → suppression des accents</code>. Donc « Sacré-Cœur », « sacré-cœur », « SACRE-COEUR » donnent tous le même hash.
+      </p>
+    </div>
+  </main>
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const normalize = (s) =>
+      s
+        .trim()
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/\u0153/g, 'oe')
+        .replace(/\u00e6/g, 'ae')
+        .replace(/[-_'\u2019]+/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+    async function sha256(str) {
+      const buf = new TextEncoder().encode(str);
+      const h = await crypto.subtle.digest('SHA-256', buf);
+      return Array.from(new Uint8Array(h)).map((b) => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    async function update() {
+      const raw = $('ans').value;
+      if (!raw.trim()) {
+        $('norm').textContent = '—';
+        $('hash').textContent = '—';
+        return;
+      }
+      const n = normalize(raw);
+      $('norm').textContent = n;
+      $('hash').textContent = await sha256(n);
+    }
+
+    $('ans').addEventListener('input', update);
+    $('copy').addEventListener('click', async () => {
+      const h = $('hash').textContent;
+      if (h === '—') return;
+      try {
+        await navigator.clipboard.writeText(h);
+        $('copy').textContent = 'Copié ✓';
+        setTimeout(() => ($('copy').textContent = 'Copier le hash'), 1500);
+      } catch {
+        alert('Sélectionne et copie manuellement le hash.');
+      }
+    });
+  </script>
+</body>
+</html>

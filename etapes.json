@@ -32,51 +32,52 @@
   ],
   "enigmes": [
     {
-      "texte": "À deux pas de ta sortie, dans un écrin de verdure caché entre les façades, un pan d'émail bleu nuit murmure inlassablement la même promesse — déclinée dans toutes les bouches de la planète. File le débusquer, et dis-moi : en combien de langues s'y décline-t-on ? (Un panneau sur place te livre le chiffre exact.)",
+      "texte": "Sur un mur, quelque part dans la pierre tendre de la butte,\ntrois mots se répètent — toujours les mêmes.\nMais jamais avec la même bouche.\n\nCombien de bouches faut-il\npour dire enfin tout l'amour du monde ?",
       "reponseHash": "20e9c64c05a54d199610fb7e38135361324b5ed5dcf39c23afe9b48926c07376",
       "indices": [
-        "Le square s'appelle Jehan Rictus, du nom d'un poète parisien des bas-fonds. Sors du métro, contourne la place et regarde derrière les arbres.",
-        "Le nombre est gravé sur la plaque explicative à côté du mur. Trois chiffres, entre 300 et 320."
+        "Les trois mots forment la plus vieille des déclarations. Le mur se trouve dans un petit square caché à deux pas du métro Abbesses, square Jehan Rictus.",
+        "Le chiffre est gravé sur la plaque informative à côté du mur. Trois chiffres, entre 300 et 320."
       ]
     },
     {
-      "texte": "Quitte les amoureux et grimpe la butte. Une placette ombragée t'attend, traversée par une fontaine Wallace. Là, jadis, se dressait une bicoque branlante en bois et tôle, surnommée le Bateau — et qui flottait sur le siècle naissant. Un Espagnol y peignit cinq demoiselles si scandaleuses qu'elles firent voler l'art en éclats. Quel était son nom ?",
+      "texte": "Cherche le radeau de planches\nqui s'est échoué au sommet de la butte —\non y lavait autrefois plus que du linge.\n\nCinq femmes nues y prirent forme,\net l'art occidental s'y déchira comme un miroir.\n\nSous quelle main ?",
       "reponseHash": "88669879cd6ae5e264a9fc42557664248ab45f267dc9906240e6f732ce7366fe",
       "indices": [
-        "L'atelier d'origine a brûlé en 1970 — le bâtiment qu'on voit aujourd'hui est une reconstruction. C'est ici qu'est né le cubisme, en 1907.",
-        "Son prénom commence par P. Une plaque devant l'entrée porte son nom de famille."
+        "Le radeau est une métaphore : c'est le surnom d'un atelier d'artistes en bois, place Émile Goudeau. Les cinq femmes sont Les Demoiselles d'Avignon.",
+        "Un Espagnol, prénom Pablo. Son nom de famille est gravé sur la plaque devant l'atelier reconstruit."
       ]
     },
     {
-      "texte": "Redescends, et cherche une placette qui porte le nom d'un écrivain. Là, un homme de bronze tente désespérément de s'extraire d'un mur — figé pour l'éternité par le ciseau d'un acteur célèbre (celui qui prêta son visage à la Bête, face à la Belle). Mais qui est ce captif des moellons ? Un timide petit employé de bureau qui, un beau matin, découvrit qu'il pouvait passer à travers tout. Son nom ?",
+      "texte": "Un homme tente de sortir d'un mur —\nmais le mur l'a retenu.\nVoilà bientôt cent ans\nque sa main supplie en vain.\n\nMarcel l'avait délivré.\nLe bronze l'a repris.\n\nQui est-il ?",
       "reponseHash": "3d3ae20c63dd062878cb75abf0b15327b531a4ba21468b904b677cdda6c68a59",
       "indices": [
-        "Marcel Aymé a écrit la nouvelle qui rendit célèbre ce personnage — la place qui l'accueille porte le nom de l'écrivain.",
-        "Le nom du personnage commence par « Du » et se termine par « eul »."
+        "Marcel, c'est Aymé. Sa nouvelle raconte l'histoire d'un petit fonctionnaire qui traversait les murs… jusqu'au jour où il y est resté coincé. La sculpture (par Jean Marais) est sur la place qui porte le nom de l'écrivain.",
+        "Le personnage s'appelle « Du——eul ». Trois lettres au milieu, comme un soupir."
       ]
     },
     {
-      "texte": "Descends à présent l'une des plus jolies ruelles pavées de Paris, bordée de bicoques d'un autre temps. Tu y croiseras une maisonnette aux murs poudrés qu'Utrillo a peinte cent fois, puis, sur une petite place, un buste de bronze qui veille. Italo-égyptienne, parisienne d'adoption, elle chantait Bambino, Gigi l'Amoroso, Paroles paroles… et vivait à deux pas. Comment l'appelait-on ?",
+      "texte": "Sur une placette, sous les marronniers,\nun bronze de femme regarde Paris.\n\nTrois patries dans le sang,\nmille amours dans la voix,\net une nuit, en mai 87,\nqui les a tous tus.\n\nComment s'appelait-elle ?"
+      ,
       "reponseHash": "08d8d35d88064e10783c0f51eaf1e60b80c1bb086389867b6f2b74a04fddfcce",
       "indices": [
-        "Elle vivait rue d'Orchampt, et repose au cimetière de Montmartre. Trois films lui ont été consacrés.",
-        "Un seul mot, six lettres, son prénom de scène. La placette porte exactement ce nom-là."
+        "La placette porte son nom. On y accède par la rue de l'Abreuvoir, après être passé devant une façade rose chère à Utrillo. Trois patries : Italie, Égypte, France.",
+        "Un seul mot, six lettres. Son prénom de scène — son vrai prénom était Yolanda. Elle chantait Bambino et Gigi l'Amoroso."
       ]
     },
     {
-      "texte": "Continue jusqu'à une grille discrète, sur une rue qui doit son nom à des arbres. Derrière, un secret pousse en plein Paris : quelques arpents de vigne, miraculeusement sauvés des pelleteuses par les habitants de la butte au début du siècle dernier. En quelle année les premiers pieds furent-ils plantés là, en signe de résistance ? Un panneau, sur place, garde la mémoire de cette victoire.",
+      "texte": "Quelque part à Montmartre,\nderrière une grille discrète, l'inattendu :\nla vigne pousse encore en plein Paris,\narrachée aux promoteurs par les voisins\nau creux d'une décennie qui dansa le swing.\n\nAnnée zéro de cette résistance ?",
       "reponseHash": "c8c817e80216ce409c63a735acdd40fb7b023bcca6e87b6fc89973c447b6a858",
       "indices": [
-        "Dans les années 30, alors que Montmartre se battait pour garder son âme villageoise face aux promoteurs.",
-        "Année à quatre chiffres, qui se termine par un 3."
+        "La décennie qui dansa le swing, ce sont les années 30. Le vignoble est rue des Saules, à l'angle de la rue Saint-Vincent.",
+        "Quatre chiffres, dans la première moitié des années 30 — il se termine par un 3."
       ]
     },
     {
-      "texte": "Dernière ascension. Lève les yeux vers la coupole blanche qui veille sur Paris depuis la cime de la butte. Bâtie en pénitence d'une guerre perdue, dans une pierre rare qui blanchit à chaque pluie, elle abrite, dit-on, le cœur même du Christ. Comment nomme-t-on ce sanctuaire qui couronne Montmartre ?",
+      "texte": "Tout en haut.\nUne coupole blanche,\nplus blanche encore quand il pleut,\nbâtie pour expier une défaite.\n\nElle abrite, dit-on, un organe sacré.\n\nSon nom ?",
       "reponseHash": "185c2f036eccf258c7a4253af75882606c3035c56d65ffe328b34c096aae8fc4",
       "indices": [
-        "Sa pierre s'appelle le travertin de Château-Landon — c'est ce qui lui donne sa blancheur éternelle. Construction lancée après la défaite de 1870.",
-        "Deux mots, reliés par un trait d'union. Le second désigne un organe."
+        "Sa pierre, le travertin de Château-Landon, blanchit à chaque pluie. La défaite expiée est celle de 1870 contre la Prusse.",
+        "Deux mots reliés par un trait d'union. L'organe en question est celui dédié au Christ."
       ]
     }
   ],

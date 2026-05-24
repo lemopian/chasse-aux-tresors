@@ -123,6 +123,12 @@
     $('lieu-nom').textContent = lieu.nom;
     $('lieu-desc').textContent = lieu.description || '';
     $('enigme-texte').textContent = enigme.texte;
+    if (enigme.direction) {
+      $('direction-box').style.display = '';
+      $('direction-texte').textContent = enigme.direction;
+    } else {
+      $('direction-box').style.display = 'none';
+    }
     $('answer-input').value = '';
     $('feedback').textContent = '';
     $('feedback').className = 'feedback';

@@ -208,6 +208,22 @@ input[type="text"]:focus {
   40%, 60% { transform: translateX(5px); }
 }
 
+/* Direction / Itinéraire */
+.direction {
+  margin: 18px 0 6px;
+  padding: 12px 14px 12px 16px;
+  background: rgba(233, 216, 168, 0.45);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+}
+.direction p { margin: 0; }
+.direction-kicker { color: var(--accent-dark); margin-bottom: 6px !important; }
+#direction-texte {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
 /* Hints */
 .hints {
   margin-top: 18px;

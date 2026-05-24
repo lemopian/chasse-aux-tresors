@@ -33,6 +33,7 @@
   "enigmes": [
     {
       "texte": "On lit sur un grand mur, dans un square ombragé,\nTrois mots, toujours pareils, en mille bouches dits.\nCombien faut-il, dis-moi, de langues pour qu'enfin\nTout l'amour de ce monde y trouve enfin son lit ?",
+      "direction": "À la sortie du métro, tu es sur la place des Abbesses. Le petit square est juste à droite de la verrière Guimard, à l'angle nord-est de la place. ~1 min à pied.",
       "reponseHash": "20e9c64c05a54d199610fb7e38135361324b5ed5dcf39c23afe9b48926c07376",
       "indices": [
         "Le square est tout proche du métro Abbesses — il s'appelle Jehan Rictus. Les trois mots forment la plus tendre des déclarations, peinte sur un mur d'émail bleu nuit.",
@@ -41,6 +42,7 @@
     },
     {
       "texte": "Au flanc de la colline un radeau s'est posé,\nOù l'on séchait jadis bien plus que du vieux linge.\nCinq femmes y naquirent, troublantes et dénouées,\nBrisant à coups d'éclats les miroirs de l'esprit —\nQuelle main, voyageur, signa cette aventure ?",
+      "direction": "Quitte le square côté ouest, remonte la rue Ravignan en pente raide vers le nord. Une placette ombragée avec une fontaine Wallace t'attend tout en haut. ~5 min de montée.",
       "reponseHash": "88669879cd6ae5e264a9fc42557664248ab45f267dc9906240e6f732ce7366fe",
       "indices": [
         "Le radeau est une métaphore : c'est le surnom d'un atelier d'artistes en bois, place Émile Goudeau — le Bateau-Lavoir. Les cinq femmes : Les Demoiselles d'Avignon.",
@@ -49,6 +51,7 @@
     },
     {
       "texte": "Un homme, sur un mur, à jamais arrêté,\nTend sa main au passant — mais le mur le retient.\nMarcel l'avait jadis délivré par les mots,\nMais le bronze déjà l'a repris pour toujours.\nQui donc, voyageur, est ce captif des moellons ?",
+      "direction": "Continue à grimper vers le sommet de la butte (rue Ravignan, puis rue Norvins vers l'ouest). La placette débouche sur la rue Lepic, juste au-dessus du Moulin de la Galette. ~7 min.",
       "reponseHash": "3d3ae20c63dd062878cb75abf0b15327b531a4ba21468b904b677cdda6c68a59",
       "indices": [
         "Marcel, c'est Aymé. Sa nouvelle « Le Passe-Muraille » raconte un petit fonctionnaire timide qui traversait les murs… jusqu'au jour où il y est resté coincé. La sculpture (par Jean Marais) est sur la place qui porte le nom de l'écrivain.",
@@ -57,6 +60,7 @@
     },
     {
       "texte": "Sur une placette en pente, un bronze veille au loin,\nTrois patries dans le sang, mille amours dans la voix.\nUne nuit, un mois de mai, vint éteindre son chant ;\nDis-moi, sous quel seul nom le tout-Paris l'aimait ?",
+      "direction": "Redescends vers le nord par la rue Norvins, puis prends la rue de l'Abreuvoir — l'une des plus belles ruelles pavées de Paris. Tu croiseras une façade poudrée chère à Utrillo juste avant la placette. ~5 min.",
       "reponseHash": "08d8d35d88064e10783c0f51eaf1e60b80c1bb086389867b6f2b74a04fddfcce",
       "indices": [
         "La placette porte son nom — on y accède par la rue de l'Abreuvoir, après avoir longé une façade rose chère à Utrillo. Trois patries : Italie, Égypte, France.",
@@ -65,6 +69,7 @@
     },
     {
       "texte": "Derrière une grille verte, en plein cœur de Paris,\nLa vigne pousse encore, sauvée des promoteurs,\nLorsque la butte vit ses voisins en colère —\nEn quelle année plantèrent-ils ces premiers ceps ?",
+      "direction": "Continue à descendre la rue de l'Abreuvoir, puis prends la rue des Saules sur la droite. La grille discrète apparaît à l'angle de la rue Saint-Vincent. ~3 min.",
       "reponseHash": "c8c817e80216ce409c63a735acdd40fb7b023bcca6e87b6fc89973c447b6a858",
       "indices": [
         "Le vignoble se trouve rue des Saules, à l'angle de la rue Saint-Vincent. Les vendanges ont lieu chaque année en octobre. La décennie est celle qui dansa le swing : les années 30.",
@@ -73,6 +78,7 @@
     },
     {
       "texte": "Tout en haut. Une coupole où la blancheur s'éveille,\nPlus blanche encore au lavement des longues pluies,\nBâtie pour expier une vieille défaite,\nElle abrite, dit-on, un organe sacré.\nDonne-moi son seul nom, comme un dernier battement.",
+      "direction": "Dernière ascension. Remonte par la rue Saint-Vincent puis prends les escaliers de la rue du Mont-Cenis. Tu arrives derrière la basilique — contourne-la pour rejoindre le parvis. ~7 min de montée.",
       "reponseHash": "185c2f036eccf258c7a4253af75882606c3035c56d65ffe328b34c096aae8fc4",
       "indices": [
         "Sa pierre, le travertin de Château-Landon, blanchit à chaque pluie. La défaite expiée est celle de 1870 contre la Prusse. L'organe est celui dédié au Christ.",
